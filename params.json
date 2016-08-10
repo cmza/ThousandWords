@@ -1,0 +1,6 @@
+{
+  "name": "ThousandWords  ",
+  "tagline": "A node-based (not node.js necessarily) Visual Creator Application using as many graphical generators and effects as possible",
+  "body": "# ThousandWords\r\n_A node-linked Visual Creator Application supporting builtin nodes, scripted nodes, live nodes and more._\r\n  \r\n\r\nThe underlying reason is to keep a simple-to-read library of graphics code. For that reason I strongly suggest you pattern your nodes on the examples, and don't obfuscate your code.  Don't provide only binaries (you'd have to modify the core to do that). Don't charge, if you can resist the urge.\r\n  \r\nFor example, an input node could have a cat picture. The output from that node might be fed into a script node to create a very specific effect.  The output from the script node could be set to a frames node.  The frames node might link bank to one of the parameters in the effect (script) node, allowing it to adjust over time.\r\n  \r\nA possible related repo : An output node code generate **Processing** code, although that would require some sort of C# -> Java transpiler.\r\n  \r\n\r\nIf there's a _slow_ but **easy** version of your plugin, and a _lightning-fast_ but **hard** to read version, possibly include both, with a **switch** parameter.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
